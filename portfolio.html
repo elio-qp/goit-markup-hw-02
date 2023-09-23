@@ -13,23 +13,25 @@
       rel="stylesheet"
     />
     <!-- CSS  -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header>
       <nav>
         <!-- LOGO -->
-        <a href="/" class="logo"
+        <a href="/" class="header-logo"
           ><span style="color: #4d5ae5">WEB</span>STUDIO</a
         >
         <!-- Menu Links -->
-        <ul>
-          <li><a href="/">Studio</a></li>
-          <li><a href="/">Portfolio</a></li>
+        <ul class="list">
+          <li><a href="index.html">Studio</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="/">Contacts</a></li>
         </ul>
       </nav>
       <!-- Contacts  -->
-      <ul>
+      <ul class="list">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul>
@@ -37,17 +39,19 @@
 
     <main>
       <!-- Buttons Section -->
-      <section class="buttons">
-        <button type="button">All</button>
-        <button type="button">Web Site</button>
-        <button type="button">App</button>
-        <button type="button">Design</button>
-        <button type="button">Marketing</button>
+      <section class="button">
+        <ul class="list">
+          <li><button type="button">All</button></li>
+          <li><button type="button">Web Site</button></li>
+          <li><button type="button">App</button></li>
+          <li><button type="button">Design</button></li>
+          <li><button type="button">Marketing</button></li>
+        </ul>
       </section>
 
       <!-- All Section  -->
       <section>
-        <ul class="all-images">
+        <ul class="all-images list">
           <li>
             <img
               src="images/banking-app.jpg"
@@ -150,7 +154,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer-logo">
       <a href="/" class="logo"><span style="color: #4d5ae5">WEB</span>STUDIO</a>
       <p>
         Increase the flow of customers and <br />

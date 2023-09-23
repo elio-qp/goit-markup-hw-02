@@ -1,77 +1,66 @@
-.root {
+:root {
   --Iris: #4d5ae5;
   --Navy-Blue: #2e2f42;
   --Slate: #434455;
   --White: #fff;
   --Cloud: #f4f4fd;
+  --Ocean: #404bbf;
 }
 
+/* General Styles  */
 body {
-  font-family: Roboto, Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
   color: var(--Navy-Blue);
 }
+/* End Of General Style  */
 
-.header-logo {
-  text-decoration: none;
-  color: var(--Navy-Blue);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
+/* Header Section  */
 
-.header-menu {
-  text-decoration: none;
-  list-style-type: none;
-  color: var(--Navy-Blue);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.32px;
-  padding: 0;
-}
+/* End of Header Section  */
 
-.header-contacts {
-  text-decoration: none;
-  list-style-type: none;
-  color: var(--Slate);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
-  padding: 0;
-}
+/* Logo Section  */
 
-.hero {
+/* End of Logo Section  */
+
+/* Menu Links  */
+
+/* End of Menu Links  */
+
+/* Contacts Section  */
+
+/* End of Contacts Section  */
+
+/* Hero Section  */
+
+/* End of Hero Section  */
+
+/* Benefits Section  */
+
+/* End of Benefits Section  */
+
+/* What We Do Section  */
+
+/* End of What We Do Section  */
+
+/* Team Section  */
+
+/* End of Team Section  */
+
+/* Footer Section  */
+.footer {
   background-color: var(--Navy-Blue);
 }
 
-h1 {
-  color: var(--White);
-  text-align: center;
-  text-transform: uppercase;
-  font-family: Roboto;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 07.143%,
-letter-spacing: 1.12px;
+.footer a {
+  text-decoration: none;
+  color: var(--Cloud);
+  font-size: 18px;
+  font-family: inherit;
 }
 
-button {
-  background-color: var(--Iris);
-  color: var(--White);
-  font-family: Roboto;
+.footer p {
+  color: var(--Cloud);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.64px;
+  font-family: inherit;
 }
+/* Footer Section  */
